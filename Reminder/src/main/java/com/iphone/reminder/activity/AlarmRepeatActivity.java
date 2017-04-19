@@ -21,6 +21,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.iphone.reminder.R;
+import com.iphone.reminder.util.Utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -47,7 +48,7 @@ public class    AlarmRepeatActivity extends Activity {
         repeatName = this.getResources().getStringArray(R.array.repeat_time);
 		Intent intent = getIntent();
         repeatNum = intent.getIntExtra("repeatNum",1);//("repeatId",1);
-		currentTabelCount = intent.getIntExtra("TABLE_COUNT", 1);
+		currentTabelCount = intent.getIntExtra("TABLE_COUNT", Utils.TABLE_COUNT_ONE);
         currentPosition = intent.getIntExtra("POSITION",1);
         Log.d("cfb---getintent","currentTabelCount=="+currentTabelCount+",,,currentPosition==="+currentPosition+"---repeatNum=="+repeatNum);
 

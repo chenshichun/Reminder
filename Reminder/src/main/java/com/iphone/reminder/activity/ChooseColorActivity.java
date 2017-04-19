@@ -20,6 +20,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.iphone.reminder.R;
+import com.iphone.reminder.util.Utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -43,7 +44,7 @@ public class ChooseColorActivity extends Activity {
         //this.getActionBar().hide();
 
         Intent intent = getIntent();
-        currentTabelCount = intent.getIntExtra("TABLE_COUNT", 1);
+        currentTabelCount = intent.getIntExtra("TABLE_COUNT", Utils.TABLE_COUNT_ONE);
 
 
         colorSp = getSharedPreferences("color", 0);
@@ -123,8 +124,8 @@ public class ChooseColorActivity extends Activity {
                             ViewGroup parent) {
             ViewHolder holder;
 
-            colorOne = colorSp.getInt("CURRENT_TABEL" + 1, 0xaacb72e0);
-            colorTwo = colorSp.getInt("CURRENT_TABEL" + 2, 0xaacb72e0);
+            colorOne = colorSp.getInt("CURRENT_TABEL" + Utils.TABLE_COUNT_ONE, 0xaacb72e0);
+            colorTwo = colorSp.getInt("CURRENT_TABEL" + Utils.TABLE_COUNT_TWO, 0xaacb72e0);
 
             if (convertView == null) {
                 convertView = mInflater.inflate(R.layout.choose_color_item,
@@ -148,14 +149,14 @@ public class ChooseColorActivity extends Activity {
                     .toString());
             holder.colorImg.setImageResource((Integer) getData().get(position)
                     .get("color_img"));
-            if (currentTabelCount == 1) {
+            if (currentTabelCount == Utils.TABLE_COUNT_ONE) {
                 for (int i = 0; i < 7; i++) {
                     if (color[i] == colorOne) {
                         selectItem = i;
                     } else {
                     }
                 }
-            } else if (currentTabelCount == 2) {
+            } else if (currentTabelCount == Utils.TABLE_COUNT_TWO) {
                 for (int i = 0; i < 7; i++) {
                     if (color[i] == colorTwo) {
                         selectItem = i;

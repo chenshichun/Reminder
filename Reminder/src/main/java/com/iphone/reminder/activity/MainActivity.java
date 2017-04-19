@@ -69,6 +69,7 @@ public class MainActivity extends Activity {
                 } else {
 				switch (status) {
 				case 0:
+                        Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewOne:::0");
                         translateAnimation(listStyleViewTwo.getY(), Utils.TO_Y_VALUE,
                                 listStyleViewTwo, Utils.SEY_Y);
                         translateAnimation(listStyleViewThree.getY(), Utils.TO_Y_VALUE + Utils.BOTTOM_GAP,
@@ -81,7 +82,8 @@ public class MainActivity extends Activity {
 					break;
                         case 1:// 表二在最上面
                         if (!ListStyleView.isEditStatus) {
-                            translateAnimation(listStyleViewOne.getY(), -Utils.SEY_Y,
+                            Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewOne:::1");
+                           /* translateAnimation(listStyleViewOne.getY(), -Utils.SEY_Y,
                                     listStyleViewOne, 0);
                             translateAnimation(listStyleViewTwo.getY(), Utils.MARGIN_GAP,
                                     listStyleViewTwo, Utils.MARGIN_GAP);
@@ -91,11 +93,12 @@ public class MainActivity extends Activity {
 
                             mHeaderLl.setVisibility(View.VISIBLE);
 //                                shelterView.setVisibility(View.VISIBLE);
-					status = 0;
+					status = 0;*/
                             }
 					break;
                         case 2:// 表一在最上面
                         if (!ListStyleView.isEditStatus) {
+                            Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewOne:::2");
                             translateAnimation(listStyleViewTwo.getY(), -Utils.TO_Y_VALUE,
                                     listStyleViewTwo, Utils.MARGIN_GAP);
 
@@ -127,6 +130,8 @@ public class MainActivity extends Activity {
                 }else{
                     switch (status) {
                         case 0:
+                            Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewTwo:::0");
+
                             translateAnimation(listStyleViewOne.getY(), Utils.SEY_Y,
                                     listStyleViewOne, Utils.SEY_Y);
                             translateAnimation(listStyleViewTwo.getY(), -Utils.MARGIN_GAP,
@@ -141,6 +146,8 @@ public class MainActivity extends Activity {
                             break;
                         case 1:// 表二在最上面
                         if (!ListStyleView.isEditStatus) {
+                            Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewTwo:::1");
+
                             translateAnimation(listStyleViewOne.getY(), -Utils.SEY_Y,
                                     listStyleViewOne, 0);
                             translateAnimation(listStyleViewTwo.getY(), Utils.MARGIN_GAP,
@@ -156,6 +163,8 @@ public class MainActivity extends Activity {
                             break;
                         case 2:// 表一在最上面
                             if (!ListStyleView.isEditStatus) {
+                                Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewTwo:::2");
+
                                 translateAnimation(listStyleViewTwo.getY(), -Utils.TO_Y_VALUE,
                                         listStyleViewTwo, Utils.MARGIN_GAP);
                                 mHeaderLl.setVisibility(View.VISIBLE);
@@ -181,6 +190,8 @@ public class MainActivity extends Activity {
                 } else {
                     switch (status) {
                         case 0:
+                            Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewThree:::0");
+
                             translateAnimation(listStyleViewOne.getY(), Utils.SEY_Y,
                                     listStyleViewOne, Utils.SEY_Y);
                             translateAnimation(listStyleViewTwo.getY(), Utils.SEY_Y + Utils.BOTTOM_GAP,
@@ -195,6 +206,8 @@ public class MainActivity extends Activity {
                             break;
                         case 1:// 表二在最上面
                             if (!ListStyleView.isEditStatus) {
+                                Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewThree:::1");
+
                                 translateAnimation(listStyleViewOne.getY(), -Utils.SEY_Y,
                                         listStyleViewOne, 0);
                                 translateAnimation(listStyleViewTwo.getY(), Utils.MARGIN_GAP,
@@ -208,14 +221,18 @@ public class MainActivity extends Activity {
                             break;
                         case 2:// 表一在最上面
                             if (!ListStyleView.isEditStatus) {
+                              /*  Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewThree:::2");
+
                                 translateAnimation(listStyleViewTwo.getY(), -Utils.TO_Y_VALUE,
                                         listStyleViewTwo, Utils.MARGIN_GAP);
                                 mHeaderLl.setVisibility(View.VISIBLE);
 //                                shelterView.setVisibility(View.VISIBLE);
-                                status = 0;
+                                status = 0;*/
                             }
                             break;
                         case 3:// 表三在上面
+                            Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewThree:::3");
+
                             translateAnimation(listStyleViewOne.getY(), -Utils.SEY_Y,
                                     listStyleViewOne, 0);
                             translateAnimation(listStyleViewTwo.getY(), -(Utils.SEY_Y + Utils.BOTTOM_GAP),
@@ -245,6 +262,8 @@ public class MainActivity extends Activity {
                 } else {
                     switch (status) {
                         case 0:
+                            Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewFour:::0");
+
                             translateAnimation(listStyleViewOne.getY(), Utils.SEY_Y,
                                     listStyleViewOne, Utils.SEY_Y);
                             translateAnimation(listStyleViewTwo.getY(), Utils.SEY_Y + Utils.BOTTOM_GAP,
@@ -259,6 +278,8 @@ public class MainActivity extends Activity {
                             break;
 
                         case 4:// 表四在上面
+                            Log.d("chenshichun",""+this.getClass().getCanonicalName()+"::::::::::::::::::listStyleViewFour:::1");
+
                             translateAnimation(listStyleViewOne.getY(), -Utils.SEY_Y,
                                     listStyleViewOne, 0);
                             translateAnimation(listStyleViewTwo.getY(), -(Utils.SEY_Y + Utils.BOTTOM_GAP),
@@ -420,14 +441,14 @@ public class MainActivity extends Activity {
         Log.d("chenshichun", "" + this.getClass().getCanonicalName() + ":::::::::::::::::::::"+settingSP.getInt("TOTAL_TABLE",2));
         // 表一
         if (!isDeleteTableOne) {
-            listStyleViewOne = new ListStyleView(this, Utils.addDetailsDate(getApplicationContext(), 1), 1);
+            listStyleViewOne = new ListStyleView(this, Utils.addDetailsDate(getApplicationContext(), Utils.TABLE_COUNT_ONE), Utils.TABLE_COUNT_ONE);
             listStyleViewOne.initDetailHead(settingSP.getString("TITLE" + 1, getApplicationContext().getResources().getString(R.string.table1)),
                     0xAA000000, getApplicationContext().getResources().getString(R.string.table1_no_project));
             ll.addView(listStyleViewOne);
         }
         // 表二
         if (!isDeleteTableTwo) {
-            listStyleViewTwo = new ListStyleView(this, Utils.addDetailsDate(getApplicationContext(), 2), 2);
+            listStyleViewTwo = new ListStyleView(this, Utils.addDetailsDate(getApplicationContext(), Utils.TABLE_COUNT_TWO), Utils.TABLE_COUNT_TWO);
 
             RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams( // 表二初始位置往下调150px
                     LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
@@ -442,7 +463,7 @@ public class MainActivity extends Activity {
         }
         // 表三
         if (!isDeleteTableThree) {
-            listStyleViewThree = new ListStyleView(this, Utils.addDetailsDate(getApplicationContext(), 3), 3);
+            listStyleViewThree = new ListStyleView(this, Utils.addDetailsDate(getApplicationContext(), Utils.TABLE_COUNT_THREE), Utils.TABLE_COUNT_THREE);
             RelativeLayout.LayoutParams layoutParamsThree = new RelativeLayout.LayoutParams( // 表二初始位置往下调150px
                     LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
             layoutParamsThree.topMargin = Utils.MARGIN_GAP * 2;
@@ -455,7 +476,7 @@ public class MainActivity extends Activity {
         }
         // 表四
         if (!isDeleteTableFour) {
-            listStyleViewFour = new ListStyleView(this, Utils.addDetailsDate(getApplicationContext(), 4), 4);
+            listStyleViewFour = new ListStyleView(this, Utils.addDetailsDate(getApplicationContext(), Utils.TABLE_COUNT_FOUR), Utils.TABLE_COUNT_FOUR);
             RelativeLayout.LayoutParams layoutParamsFour = new RelativeLayout.LayoutParams( // 表二初始位置往下调150px
                     LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
             layoutParamsFour.topMargin = Utils.MARGIN_GAP * 3;

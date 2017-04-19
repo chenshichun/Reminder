@@ -28,6 +28,11 @@ public class Utils {
     public static final int BOTTOM_GAP=5;
     public static final int SEY_Y = TO_Y_VALUE + MARGIN_GAP;
     public static boolean isShow = false;
+    public static final int TABLE_COUNT_ONE = 1;
+    public static final int TABLE_COUNT_TWO = 2;
+    public static final int TABLE_COUNT_THREE = 3;
+    public static final int TABLE_COUNT_FOUR = 4;
+
     /**
      * 判断软键盘是否弹出
      */

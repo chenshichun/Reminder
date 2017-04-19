@@ -113,7 +113,7 @@ public class DetailsActivity extends Activity implements OnClickListener {
 		//this.getActionBar().hide();
 		//setWindowStatusBarColor(this, 0xffffff);
 		Intent intent = getIntent();
-		currentTableCount = intent.getIntExtra("TABLE_COUNT", 1); // 确定操作的是哪张表
+		currentTableCount = intent.getIntExtra("TABLE_COUNT", Utils.TABLE_COUNT_ONE); // 确定操作的是哪张表
 		currentPosition = intent.getStringExtra("POSITION"); // 操作的是哪一行
 		detailTitle = intent.getStringExtra("DETAIL_TITLE");
         if(intent.getStringExtra("DETAIL_REPEAT")==null){
