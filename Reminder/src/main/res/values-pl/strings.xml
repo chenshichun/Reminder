@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">przypomnienia</string>
+    
+	<string name="details">Detale</string>
+	<string name="done">Gotowe</string>
+	<string name="remind_on_a_specified_date">Przypomnij mi na dzień</string>
+	<string name="reminder_time">Alarm</string>
+    <string name="reminder_pro">przypomnienia</string>
+	<string name="repeat">Powtarzać</string>
+    <string name="location">Lokalizacja</string>
+	<string name="remind_on_a_specified_location">Przypomnij mi przy sąsiednich</string>
+	<string name="priority">Priorytet</string>
+	<string name="list">Lista</string>
+	<string name="remarks">Uwagi</string>
+    <string name="customer">Klient</string>
+
+    <string name="table1">Planowy</string>
+    <string name="table1_no_project">Brak elementów ze względu na dzisiaj</string>
+    <string name="table1_project">1 pkt powodu dziś</string>
+    <string name="table2">Przypomnienie</string>
+    <string name="table3">Lista 2</string>
+    <string name="table4">Lista 3</string>
+
+    <string name="cancel">Anuluj</string>
+    <string name="colors">Kolor</string>
+    <string name="search">Szukanie</string>
+    
+    <string name="repeat_never">Nigdy</string>
+    <string name="repeat_day">Codziennie</string>
+    <string name="repeat_week">Co tydzień</string>
+    <string name="repeat_two_week">Każde 2 tydzień</string>
+    <string name="repeat_month">Każdego miesiąca</string>
+    <string name="repeat_year">Każdego roku</string>
+    <string name="purple">Fioletowy</string>
+    <string name="green">Zielony</string>
+    <string name="blue">niebieski</string>
+    <string name="yellow">Żółty</string>
+    <string name="gray">Szary</string>
+    <string name="red">Czerwony</string>
+    <string name="orange">Pomarańczowy</string>
+
+    <string name="edit">Edytować</string>
+    <string name="list_title">Lista tytułów</string>
+    <string name="show_completed">Pokaż Zakończony</string>
+    <string name="hide_completed">Ukryj Zakończony</string>
+
+    <string name="more">Jeszcze</string>
+    <string name="delete">Kasować</string>
+    <string name="delete_list">Usuń listę</string>
+
+</resources>

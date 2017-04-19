@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:id="@+id/broadcast_reminders">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_margin="5dp"
+        android:background="@drawable/reminder_timeup_background"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/app_reminder"/>
+
+            <TextView
+                android:id="@+id/broadcast_title"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dip"
+                android:layout_marginLeft="50dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/reminder_pro"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/broadcast_title_time"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:text="@string/reminder_pro"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/broadcast_context"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:singleLine="true"
+                android:text="@string/reminder_pro"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

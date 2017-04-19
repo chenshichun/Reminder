@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">herinneringen</string>
+    
+	<string name="details">Details</string>
+	<string name="done">Gedaan</string>
+	<string name="remind_on_a_specified_date">Herinner me op een dag</string>
+	<string name="reminder_time">Alarm</string>
+    <string name="reminder_pro">herinneringen</string>
+	<string name="repeat">Herhaling</string>
+    <string name="location">Plaats</string>
+	<string name="remind_on_a_specified_location">Herinner me op een locatie</string>
+	<string name="priority">Prioriteit</string>
+	<string name="list">Lijst</string>
+	<string name="remarks">Notes</string>
+    <string name="customer">Klant</string>
+
+    <string name="table1">geplande</string>
+    <string name="table1_no_project">Geen items voor vandaag</string>
+    <string name="table1_project">1 item als gevolg van vandaag</string>
+    <string name="table2">Herinnering</string>
+    <string name="table3">lijst 2</string>
+    <string name="table4">lijst 3</string>
+
+    <string name="cancel">Annuleer</string>
+    <string name="colors">Kleur</string>
+    <string name="search">Zoeken</string>
+    
+    <string name="repeat_never">Nooit</string>
+    <string name="repeat_day">Elke dag</string>
+    <string name="repeat_week">Elke week</string>
+    <string name="repeat_two_week">Elke 2 Week</string>
+    <string name="repeat_month">Elke maand</string>
+    <string name="repeat_year">Elk jaar</string>
+    <string name="purple">Purper</string>
+    <string name="green">Groen</string>
+    <string name="blue">Blauw</string>
+    <string name="yellow">Geel</string>
+    <string name="gray">Grijs</string>
+    <string name="red">Rood</string>
+    <string name="orange">Oranje</string>
+
+    <string name="edit">Bewerk</string>
+    <string name="list_title">List titel</string>
+    <string name="show_completed">Show voltooid</string>
+    <string name="hide_completed">Hide voltooid</string>
+
+    <string name="more">Meer</string>
+    <string name="delete">Verwijder</string>
+    <string name="delete_list">Lijst wissen</string>
+
+</resources>

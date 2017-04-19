@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">သတိပေးချက်များ</string>
+    
+	<string name="details">အသေးစိတ်</string>
+	<string name="done">ပြီးပြီ</string>
+	<string name="remind_on_a_specified_date">တစ်နေ့၌ငါ့ကိုသတိပေး</string>
+	<string name="reminder_time">နှိုးသံ</string>
+    <string name="reminder_pro">သတိပေးချက်များ</string>
+	<string name="repeat">ပြန်ဆို</string>
+    <string name="location">တည်နေရာ</string>
+	<string name="remind_on_a_specified_location">တည်နေရာမှာငါ့ကိုသတိပေး</string>
+	<string name="priority">ဦးစားပေး</string>
+	<string name="list">စာရင်း</string>
+	<string name="remarks">မှတ်စုများ</string>
+    <string name="customer">ဖောက်သည်</string>
+
+    <string name="table1">Scheduled</string>
+    <string name="table1_no_project">ယနေ့ကြောင့်ပစ္စည်းများကိုမျှမ</string>
+    <string name="table1_project">ယနေ့ကြောင့် 1 ကို item</string>
+    <string name="table2">သတိပေးချက်</string>
+    <string name="table3">စာရင်း 2</string>
+    <string name="table4">စာရင်း 3</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="colors">အရောင်</string>
+    <string name="search">ရှာဖှေ</string>
+    
+    <string name="repeat_never">ဘယ်တော့မှမ</string>
+    <string name="repeat_day">နေ့တိုင်း</string>
+    <string name="repeat_week">အပတ်တိုင်း</string>
+    <string name="repeat_two_week">တိုင်း 2 အပတ်</string>
+    <string name="repeat_month">လစဉ်လတိုင်း</string>
+    <string name="repeat_year">နှစ်စဉ်နှစ်တိုင်း</string>
+    <string name="purple">ခရမ်းရောင်နု</string>
+    <string name="green">စိမ်းလန်းသော</string>
+    <string name="blue">ပြာသော</string>
+    <string name="yellow">ဝါသော</string>
+    <string name="gray">မီးခိုးရောင်</string>
+    <string name="red">နီသော</string>
+    <string name="orange">လိမ္မော်သီး</string>
+
+    <string name="edit">Edit ကို</string>
+    <string name="list_title">စာရင်းခေါင်းစဉ်</string>
+    <string name="show_completed">show ကိုပြီးစီး</string>
+    <string name="hide_completed">Completed ဖုံးကွယ်ထား</string>
+
+    <string name="more">နောက်ထပ်</string>
+    <string name="delete">ဖျက်ပစ်ပါ</string>
+    <string name="delete_list">List ကိုဖျက်ပစ်ပါ</string>
+
+</resources>

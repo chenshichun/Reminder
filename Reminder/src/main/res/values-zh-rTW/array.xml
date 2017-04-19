@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_time">
+        <item>永不</item>
+        <item>每天</item>
+        <item>每週</item>
+        <item>每兩週</item>
+        <item>每月</item>
+        <item>每年</item>
+    </string-array>
+</resources>

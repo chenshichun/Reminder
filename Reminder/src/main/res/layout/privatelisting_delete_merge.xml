@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/view_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/holder"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/more_details"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/more"
+            android:background="#c6c6cb"
+            android:textColor="#FFFFFF" />
+			
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:background="#fe3b30"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</merge>

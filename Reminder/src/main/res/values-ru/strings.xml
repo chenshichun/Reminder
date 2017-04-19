@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Напоминания</string>
+    
+	<string name="details">Детали</string>
+	<string name="done">Готово</string>
+	<string name="remind_on_a_specified_date">Напомнить мне в день</string>
+	<string name="reminder_time">Аварийная сигнализация</string>
+    <string name="reminder_pro">Напоминания</string>
+	<string name="repeat">Повторение</string>
+    <string name="location">Место нахождения</string>
+	<string name="remind_on_a_specified_location">Напомнить мне адрес</string>
+	<string name="priority">Приоритет</string>
+	<string name="list">Список</string>
+	<string name="remarks">Заметки</string>
+    <string name="customer">Клиент</string>
+
+    <string name="table1">Запланированное</string>
+    <string name="table1_no_project">Нет товаров, подлежащих оплате сегодня</string>
+    <string name="table1_project">1 статья, подлежащая оплате сегодня</string>
+    <string name="table2">Напоминание</string>
+    <string name="table3">Список 2</string>
+    <string name="table4">Список 3</string>
+
+    <string name="cancel">Отмена</string>
+    <string name="colors">цвет</string>
+    <string name="search">Поиск</string>
+    
+    <string name="repeat_never">Никогда</string>
+    <string name="repeat_day">Каждый день</string>
+    <string name="repeat_week">Каждую неделю</string>
+    <string name="repeat_two_week">Каждые 2 недели</string>
+    <string name="repeat_month">Каждый месяц</string>
+    <string name="repeat_year">Каждый год</string>
+    <string name="purple">Пурпурный</string>
+    <string name="green">Зеленый</string>
+    <string name="blue">Синий</string>
+    <string name="yellow">ЖЕЛТЫЙ</string>
+    <string name="gray">Серый</string>
+    <string name="red">Красный</string>
+    <string name="orange">оранжевый</string>
+
+    <string name="edit">редактировать</string>
+    <string name="list_title">Заголовок списка</string>
+    <string name="show_completed">Показать завершенные</string>
+    <string name="hide_completed">Скрыть завершенные</string>
+
+    <string name="more">Больше</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_list">Удалить список</string>
+
+</resources>

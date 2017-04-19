@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">การแจ้งเตือน</string>
+    
+	<string name="details">รายละเอียด</string>
+	<string name="done">เสร็จสิ้น</string>
+	<string name="remind_on_a_specified_date">เตือนฉันในหนึ่งวัน</string>
+	<string name="reminder_time">ปลุก</string>
+    <string name="reminder_pro">การแจ้งเตือน</string>
+	<string name="repeat">ทำซ้ำ</string>
+    <string name="location">สถานที่ตั้ง</string>
+	<string name="remind_on_a_specified_location">เตือนฉันที่สถานที่</string>
+	<string name="priority">ลำดับความสำคัญ</string>
+	<string name="list">รายการ</string>
+	<string name="remarks">หมายเหตุ</string>
+    <string name="customer">ลูกค้า</string>
+
+    <string name="table1">กำหนดเวลาแล้ว</string>
+    <string name="table1_no_project">ไม่มีรายการที่ครบกำหนดในวันนี้</string>
+    <string name="table1_project">1 รายการวันนี้</string>
+    <string name="table2">คำเตือน</string>
+    <string name="table3">รายการ 2</string>
+    <string name="table4">รายการ 3</string>
+
+    <string name="cancel">ยกเลิก</string>
+    <string name="colors">สี</string>
+    <string name="search">ค้นหา</string>
+    
+    <string name="repeat_never">ไม่เคย</string>
+    <string name="repeat_day">ทุกวัน</string>
+    <string name="repeat_week">ทุกสัปดาห์</string>
+    <string name="repeat_two_week">ทุกๆ 2 สัปดาห์</string>
+    <string name="repeat_month">ทุกๆเดือน</string>
+    <string name="repeat_year">ทุกปี</string>
+    <string name="purple">สีม่วง</string>
+    <string name="green">สีเขียว</string>
+    <string name="blue">สีน้ำเงิน</string>
+    <string name="yellow">สีเหลือง</string>
+    <string name="gray">สีเทา</string>
+    <string name="red">สีแดง</string>
+    <string name="orange">ส้ม</string>
+
+    <string name="edit">แก้ไข</string>
+    <string name="list_title">ชื่อรายการ</string>
+    <string name="show_completed">การแสดงเสร็จสมบูรณ์</string>
+    <string name="hide_completed">ซ่อนที่เสร็จสมบูรณ์</string>
+
+    <string name="more">มากกว่า</string>
+    <string name="delete">ลบ</string>
+    <string name="delete_list">ลบรายการ</string>
+
+</resources>

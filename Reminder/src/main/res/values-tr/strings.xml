@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hatırlatıcılar</string>
+    
+	<string name="details">Ayrıntılar</string>
+	<string name="done">Bitti</string>
+	<string name="remind_on_a_specified_date">Bana bir gün hatırlat</string>
+	<string name="reminder_time">Alarm</string>
+    <string name="reminder_pro">Hatırlatıcılar</string>
+	<string name="repeat">Tekrar et</string>
+    <string name="location">yer</string>
+	<string name="remind_on_a_specified_location">Hatırlat bana bir yere</string>
+	<string name="priority">Öncelik</string>
+	<string name="list">Liste</string>
+	<string name="remarks">Notlar</string>
+    <string name="customer">Müşteri</string>
+
+    <string name="table1">Zamanlanmış</string>
+    <string name="table1_no_project">Bugün öğe yok</string>
+    <string name="table1_project">1 öğenin bugün olması</string>
+    <string name="table2">Hatırlatma</string>
+    <string name="table3">Liste 2</string>
+    <string name="table4">Liste 3</string>
+
+    <string name="cancel">İptal etmek</string>
+    <string name="colors">Renk</string>
+    <string name="search">Arama</string>
+    
+    <string name="repeat_never">Asla</string>
+    <string name="repeat_day">Her gün</string>
+    <string name="repeat_week">Her hafta</string>
+    <string name="repeat_two_week">2 haftada bir</string>
+    <string name="repeat_month">Her ay</string>
+    <string name="repeat_year">Her yıl</string>
+    <string name="purple">Mor</string>
+    <string name="green">Yeşil</string>
+    <string name="blue">Mavi</string>
+    <string name="yellow">Sarı</string>
+    <string name="gray">Gri</string>
+    <string name="red">Kırmızı</string>
+    <string name="orange">Portakal</string>
+
+    <string name="edit">Düzenle</string>
+    <string name="list_title">Listenin başlığı</string>
+    <string name="show_completed">Tamamlandı Göster</string>
+    <string name="hide_completed">Tamamlananları Gizle</string>
+
+    <string name="more">Daha</string>
+    <string name="delete">Sil</string>
+    <string name="delete_list">Listeyi Sil</string>
+
+</resources>

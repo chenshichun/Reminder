@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lembretes</string>
+    
+	<string name="details">Detalhes</string>
+	<string name="done">Feito</string>
+	<string name="remind_on_a_specified_date">Lembre-me em um dia</string>
+	<string name="reminder_time">Alarme</string>
+    <string name="reminder_pro">Lembretes</string>
+	<string name="repeat">Repetir</string>
+    <string name="location">Localização</string>
+	<string name="remind_on_a_specified_location">Lembre-me em um local</string>
+	<string name="priority">Prioridade</string>
+	<string name="list">Lista</string>
+	<string name="remarks">Notas</string>
+    <string name="customer">Cliente</string>
+
+    <string name="table1">Programado</string>
+    <string name="table1_no_project">Não há itens disponíveis hoje</string>
+    <string name="table1_project">1 item devido hoje</string>
+    <string name="table2">Lembrete</string>
+    <string name="table3">Lista 2</string>
+    <string name="table4">Lista 3</string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="colors">Cor</string>
+    <string name="search">Pesquisa</string>
+    
+    <string name="repeat_never">Nunca</string>
+    <string name="repeat_day">Todo dia</string>
+    <string name="repeat_week">Toda semana</string>
+    <string name="repeat_two_week">Todas as 2 semanas</string>
+    <string name="repeat_month">Todo mês</string>
+    <string name="repeat_year">Todo ano</string>
+    <string name="purple">Roxa</string>
+    <string name="green">Verde</string>
+    <string name="blue">Azul</string>
+    <string name="yellow">Amarelo</string>
+    <string name="gray">Cinzento</string>
+    <string name="red">Vermelho</string>
+    <string name="orange">laranja</string>
+
+    <string name="edit">Editar</string>
+    <string name="list_title">Título da lista</string>
+    <string name="show_completed">Mostrar concluído</string>
+    <string name="hide_completed">Ocultar Concluído</string>
+
+    <string name="more">Mais</string>
+    <string name="delete">Excluir</string>
+    <string name="delete_list">Excluir lista</string>
+
+</resources>

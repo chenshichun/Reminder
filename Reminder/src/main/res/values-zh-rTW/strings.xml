@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">提醒事項</string>
+
+    <string name="details">詳細信息</string>
+    <string name="done">完成</string>
+    <string name="remind_on_a_specified_date">在指定日期提醒我</string>
+    <string name="reminder_time">提醒時間</string>
+    <string name="reminder_pro">提醒事項</string>
+    <string name="repeat">重複</string>
+    <string name="location">位置</string>
+    <string name="remind_on_a_specified_location">在指定位置提醒我</string>
+    <string name="priority">優先級</string>
+    <string name="list">列表</string>
+    <string name="remarks">備註</string>
+    <string name="customer">自定</string>
+
+    <string name="table1">已計劃</string>
+    <string name="table1_no_project">沒有今天到期的項目</string>
+    <string name="table1_project">1個項目今天到期</string>
+    <string name="table2">提醒事項</string>
+    <string name="table3">列表2</string>
+    <string name="table4">列表3</string>
+
+    <string name="cancel">取消</string>
+    <string name="colors">顏色</string>
+    <string name="search">搜索</string>
+
+    <string name="repeat_never">永不</string>
+    <string name="repeat_day">每天</string>
+    <string name="repeat_week">每週</string>
+    <string name="repeat_two_week">每兩週</string>
+    <string name="repeat_month">每月</string>
+    <string name="repeat_year">每年</string>
+    <string name="purple">紫色</string>
+    <string name="green">綠色</string>
+    <string name="blue">藍色</string>
+    <string name="yellow">黃色</string>
+    <string name="gray">褐色</string>
+    <string name="red">紅色</string>
+    <string name="orange">橙色</string>
+
+    <string name="edit">編輯</string>
+    <string name="list_title">列表標題</string>
+    <string name="show_completed">顯示已完成的項目</string>
+    <string name="hide_completed">隱藏已完成的項目</string>
+
+    <string name="more">更多</string>
+    <string name="delete">刪除</string>
+    <string name="delete_list">刪除列表</string>
+</resources>

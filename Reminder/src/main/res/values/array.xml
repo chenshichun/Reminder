@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_time">
+        <item>Never</item>
+        <item>Every Day</item>
+        <item>Every Week</item>
+        <item>Every 2 Week</item>
+        <item>Every Month</item>
+        <item>Every Year</item>
+    </string-array>
+</resources>

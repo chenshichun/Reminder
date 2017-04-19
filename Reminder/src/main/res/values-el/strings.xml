@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">υπενθυμίσεις</string>
+    
+	<string name="details">Λεπτομέριες</string>
+	<string name="done">Εγινε</string>
+	<string name="remind_on_a_specified_date">Θύμισέ μου σε μια μέρα</string>
+	<string name="reminder_time">Τρομάζω</string>
+    <string name="reminder_pro">υπενθυμίσεις</string>
+	<string name="repeat">Επαναλαμβάνω</string>
+    <string name="location">Τοποθεσία</string>
+	<string name="remind_on_a_specified_location">Θύμισέ μου σε μια θέση</string>
+	<string name="priority">Προτεραιότητα</string>
+	<string name="list">Λίστα</string>
+	<string name="remarks">Σημειώσεις</string>
+    <string name="customer">Πελάτης</string>
+
+    <string name="table1">Προγραμματισμένος</string>
+    <string name="table1_no_project">Δεν υπάρχουν στοιχεία που οφείλονται σήμερα</string>
+    <string name="table1_project">1 στοιχείο λόγω σήμερα</string>
+    <string name="table2">Υπενθύμιση</string>
+    <string name="table3">Κατάλογος 2</string>
+    <string name="table4">Κατάλογος 3</string>
+
+    <string name="cancel">Ματαίωση</string>
+    <string name="colors">Χρώμα</string>
+    <string name="search">Ψάξιμο</string>
+    
+    <string name="repeat_never">Ποτέ</string>
+    <string name="repeat_day">Κάθε μέρα</string>
+    <string name="repeat_week">Κάθε εβδομάδα</string>
+    <string name="repeat_two_week">Κάθε 2 εβδομάδα</string>
+    <string name="repeat_month">Κάθε Μήνας</string>
+    <string name="repeat_year">Κάθε χρόνο</string>
+    <string name="purple">Μωβ</string>
+    <string name="green">Πράσινος</string>
+    <string name="blue">Μπλε</string>
+    <string name="yellow">Κίτρινος</string>
+    <string name="gray">Γκρί</string>
+    <string name="red">το κόκκινο</string>
+    <string name="orange">Πορτοκάλι</string>
+
+    <string name="edit">Επεξεργασία</string>
+    <string name="list_title">τίτλος Λίστα</string>
+    <string name="show_completed">Εμφάνιση Ολοκληρώθηκε</string>
+    <string name="hide_completed">Απόκρυψη Ολοκληρώθηκε</string>
+
+    <string name="more">Περισσότερο</string>
+    <string name="delete">Διαγράφω</string>
+    <string name="delete_list">Διαγραφή λίστας</string>
+
+</resources>

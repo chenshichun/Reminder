@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">リマインダー</string>
+    
+	<string name="details">詳細</string>
+	<string name="done">完了</string>
+	<string name="remind_on_a_specified_date">1日に私に思い出させる</string>
+	<string name="reminder_time">警報</string>
+    <string name="reminder_pro">リマインダー</string>
+	<string name="repeat">繰り返す</string>
+    <string name="location">ロケーション</string>
+	<string name="remind_on_a_specified_location">場所で私に思い出させます</string>
+	<string name="priority">優先順位</string>
+	<string name="list">カスタム</string>
+	<string name="remarks">ノート</string>
+    <string name="customer">顧客</string>
+
+    <string name="table1">予定</string>
+    <string name="table1_no_project">今日はアイテムがありません</string>
+    <string name="table1_project">今日の1件のアイテム</string>
+    <string name="table2">リマインダ</string>
+    <string name="table3">リスト2</string>
+    <string name="table4">リスト3</string>
+
+    <string name="cancel">キャンセル</string>
+    <string name="colors">色</string>
+    <string name="search">サーチ</string>
+    
+    <string name="repeat_never">絶対に</string>
+    <string name="repeat_day">毎日</string>
+    <string name="repeat_week">毎週</string>
+    <string name="repeat_two_week">2週間ごと</string>
+    <string name="repeat_month">毎月</string>
+    <string name="repeat_year">毎年</string>
+    <string name="purple">パープル</string>
+    <string name="green">グリーン</string>
+    <string name="blue">ブルー</string>
+    <string name="yellow">黄</string>
+    <string name="gray">グレー</string>
+    <string name="red">赤</string>
+    <string name="orange">オレンジ</string>
+
+    <string name="edit">編集</string>
+    <string name="list_title">リストのタイトル</string>
+    <string name="show_completed">ショー完了</string>
+    <string name="hide_completed">完了を隠す</string>
+
+    <string name="more">もっと</string>
+    <string name="delete">削除</string>
+    <string name="delete_list">リストを削除する</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">یادآوری</string>
+    
+	<string name="details">جزئیات</string>
+	<string name="done">انجام شده</string>
+	<string name="remind_on_a_specified_date">به یاد من در یک روز</string>
+	<string name="reminder_time">زنگ خطر</string>
+    <string name="reminder_pro">یادآوری</string>
+	<string name="repeat">تکرار</string>
+    <string name="location">محل</string>
+	<string name="remind_on_a_specified_location">به یاد من در یک مکان</string>
+	<string name="priority">اولویت</string>
+	<string name="list">فهرست</string>
+	<string name="remarks">یادداشت</string>
+    <string name="customer">مشتری</string>
+
+    <string name="table1">برنامه ریزی</string>
+    <string name="table1_no_project">هیچ آیتمی امروز به علت</string>
+    <string name="table1_project">1 آیتم امروز به علت</string>
+    <string name="table2">یادآور</string>
+    <string name="table3">فهرست 2</string>
+    <string name="table4">فهرست 3</string>
+
+    <string name="cancel">لغو کردن</string>
+    <string name="colors">رنگ</string>
+    <string name="search">جستجو کردن</string>
+    
+    <string name="repeat_never">هرگز</string>
+    <string name="repeat_day">هر روز</string>
+    <string name="repeat_week">هر هفته</string>
+    <string name="repeat_two_week">هر 2 هفته</string>
+    <string name="repeat_month">هر ماه</string>
+    <string name="repeat_year">هر سال</string>
+    <string name="purple">رنگ بنفش</string>
+    <string name="green">سبز</string>
+    <string name="blue">آبی</string>
+    <string name="yellow">رنگ زرد</string>
+    <string name="gray">خاکستری</string>
+    <string name="red">قرمز</string>
+    <string name="orange">نارنجی</string>
+
+    <string name="edit">ویرایش</string>
+    <string name="list_title">فهرست عنوان</string>
+    <string name="show_completed">نمایش تکمیل</string>
+    <string name="hide_completed">مخفی تکمیل</string>
+
+    <string name="more">بیش</string>
+    <string name="delete">حذف</string>
+    <string name="delete_list">حذف لیست</string>
+
+</resources>

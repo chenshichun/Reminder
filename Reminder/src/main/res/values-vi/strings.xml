@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nhắc nhở</string>
+    
+	<string name="details">Chi tiết</string>
+	<string name="done">Làm xong</string>
+	<string name="remind_on_a_specified_date">Nhắc tôi vào một ngày</string>
+	<string name="reminder_time">báo thức</string>
+    <string name="reminder_pro">Nhắc nhở</string>
+	<string name="repeat">Nói lại</string>
+    <string name="location">Vị trí</string>
+	<string name="remind_on_a_specified_location">Nhắc tôi ở vị trí</string>
+	<string name="priority">Sự ưu tiên</string>
+	<string name="list">Danh sách</string>
+	<string name="remarks">Ghi chú</string>
+    <string name="customer">khách hàng</string>
+
+    <string name="table1">Lên kế hoạch</string>
+    <string name="table1_no_project">Không có mặt hàng nào đến ngày hôm nay</string>
+    <string name="table1_project">1 mặt hàng do ngày hôm nay</string>
+    <string name="table2">Nhắc nhở</string>
+    <string name="table3">Danh sách 2</string>
+    <string name="table4">Danh sách 3</string>
+
+    <string name="cancel">Hủy</string>
+    <string name="colors">Màu</string>
+    <string name="search">Tìm kiếm</string>
+    
+    <string name="repeat_never">Không bao giờ</string>
+    <string name="repeat_day">Mỗi ngày</string>
+    <string name="repeat_week">Mỗi tuần</string>
+    <string name="repeat_two_week">Mỗi 2 Tuần</string>
+    <string name="repeat_month">Mỗi tháng</string>
+    <string name="repeat_year">Mỗi năm</string>
+    <string name="purple">Màu tím</string>
+    <string name="green">màu xanh lá</string>
+    <string name="blue">Màu xanh da trời</string>
+    <string name="yellow">Màu vàng</string>
+    <string name="gray">Xám</string>
+    <string name="red">Đỏ</string>
+    <string name="orange">trái cam</string>
+
+    <string name="edit">Chỉnh sửa</string>
+    <string name="list_title">Danh sách tiêu đề</string>
+    <string name="show_completed">Hiển thị hoàn thành</string>
+    <string name="hide_completed">Ẩn hoàn thành</string>
+
+    <string name="more">Hơn</string>
+    <string name="delete">Xóa bỏ</string>
+    <string name="delete_list">Xoá Danh sách</string>
+
+</resources>

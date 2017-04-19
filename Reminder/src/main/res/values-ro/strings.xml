@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mementouri</string>
+    
+	<string name="details">Detalii</string>
+	<string name="done">Terminat</string>
+	<string name="remind_on_a_specified_date">Adu-mi aminte o zi</string>
+	<string name="reminder_time">Alarma</string>
+    <string name="reminder_pro">mementouri</string>
+	<string name="repeat">Repeta</string>
+    <string name="location">Locație</string>
+	<string name="remind_on_a_specified_location">Amintește-mi la o locație</string>
+	<string name="priority">Prioritate</string>
+	<string name="list">Listă</string>
+	<string name="remarks">notițe</string>
+    <string name="customer">Client</string>
+
+    <string name="table1">programată</string>
+    <string name="table1_no_project">Nu există articole de azi din cauza</string>
+    <string name="table1_project">1 articol de azi din cauza</string>
+    <string name="table2">Aducere aminte</string>
+    <string name="table3">lista 2</string>
+    <string name="table4">lista 3</string>
+
+    <string name="cancel">Anulare</string>
+    <string name="colors">Culoare</string>
+    <string name="search">Căutare</string>
+    
+    <string name="repeat_never">Nu</string>
+    <string name="repeat_day">In fiecare zi</string>
+    <string name="repeat_week">În fiecare săptămână</string>
+    <string name="repeat_two_week">Fiecare 2 Săptămâna</string>
+    <string name="repeat_month">In fiecare luna</string>
+    <string name="repeat_year">In fiecare an</string>
+    <string name="purple">Violet</string>
+    <string name="green">Verde</string>
+    <string name="blue">Albastru</string>
+    <string name="yellow">Galben</string>
+    <string name="gray">Gri</string>
+    <string name="red">roșu</string>
+    <string name="orange">Portocale</string>
+
+    <string name="edit">Editați | ×</string>
+    <string name="list_title">din titlu listă</string>
+    <string name="show_completed">Afișează Finalizat</string>
+    <string name="hide_completed">Completat se ascunde</string>
+
+    <string name="more">Mai Mult</string>
+    <string name="delete">Șterge</string>
+    <string name="delete_list">ştergeţi lista</string>
+
+</resources>

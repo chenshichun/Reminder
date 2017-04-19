@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">알리미</string>
+    
+	<string name="details">세부</string>
+	<string name="done">끝난</string>
+	<string name="remind_on_a_specified_date">하루에 상기시켜</string>
+	<string name="reminder_time">경보</string>
+    <string name="reminder_pro">알리미</string>
+	<string name="repeat">반복</string>
+    <string name="location">위치</string>
+	<string name="remind_on_a_specified_location">한 위치에서 알림</string>
+	<string name="priority">우선 순위</string>
+	<string name="list">명부</string>
+	<string name="remarks">노트</string>
+    <string name="customer">고객</string>
+
+    <string name="table1">예정</string>
+    <string name="table1_no_project">오늘 기한이없는 상품</string>
+    <string name="table1_project">오늘 1 개의 항목 만료 예정</string>
+    <string name="table2">조언</string>
+    <string name="table3">목록 2</string>
+    <string name="table4">목록 3</string>
+
+    <string name="cancel">취소</string>
+    <string name="colors">색깔</string>
+    <string name="search">수색</string>
+    
+    <string name="repeat_never">못</string>
+    <string name="repeat_day">매일</string>
+    <string name="repeat_week">매주</string>
+    <string name="repeat_two_week">매 2 주</string>
+    <string name="repeat_month">매 달</string>
+    <string name="repeat_year">매년</string>
+    <string name="purple">자</string>
+    <string name="green">녹색</string>
+    <string name="blue">푸른</string>
+    <string name="yellow">노랑</string>
+    <string name="gray">회색</string>
+    <string name="red">빨간</string>
+    <string name="orange">주황색</string>
+
+    <string name="edit">편집하다</string>
+    <string name="list_title">목록 제목</string>
+    <string name="show_completed">완료 표시</string>
+    <string name="hide_completed">완료 안함</string>
+
+    <string name="more">더</string>
+    <string name="delete">지우다</string>
+    <string name="delete_list">목록 삭제</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">pengingat</string>
+    
+	<string name="details">rincian</string>
+	<string name="done">matang</string>
+	<string name="remind_on_a_specified_date">Ingatkan saya pada hari</string>
+	<string name="reminder_time">Alarm</string>
+    <string name="reminder_pro">pengingat</string>
+	<string name="repeat">Ulangi</string>
+    <string name="location">tempat</string>
+	<string name="remind_on_a_specified_location">Ingatkan saya di lokasi</string>
+	<string name="priority">Prioritas</string>
+	<string name="list">Daftar</string>
+	<string name="remarks">Catatan</string>
+    <string name="customer">Pelanggan</string>
+
+    <string name="table1">dijadwalkan</string>
+    <string name="table1_no_project">Tidak ada item karena hari ini</string>
+    <string name="table1_project">1 item karena hari ini</string>
+    <string name="table2">Peringatan</string>
+    <string name="table3">Daftar 2</string>
+    <string name="table4">Daftar 3</string>
+
+    <string name="cancel">Membatalkan</string>
+    <string name="colors">Warna</string>
+    <string name="search">Pencarian</string>
+    
+    <string name="repeat_never">Tak pernah</string>
+    <string name="repeat_day">Setiap hari</string>
+    <string name="repeat_week">Setiap minggu</string>
+    <string name="repeat_two_week">Setiap 2 minggu</string>
+    <string name="repeat_month">Setiap bulan</string>
+    <string name="repeat_year">Setiap tahun</string>
+    <string name="purple">Ungu</string>
+    <string name="green">hijau</string>
+    <string name="blue">Biru</string>
+    <string name="yellow">Kuning</string>
+    <string name="gray">Kelabu</string>
+    <string name="red">Merah</string>
+    <string name="orange">Jeruk</string>
+
+    <string name="edit">mengedit</string>
+    <string name="list_title">title daftar</string>
+    <string name="show_completed">Tampilkan Selesai</string>
+    <string name="hide_completed">Sembunyikan Selesai</string>
+
+    <string name="more">Lebih</string>
+    <string name="delete">Menghapus</string>
+    <string name="delete_list">Hapus Daftar</string>
+
+</resources>

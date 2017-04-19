@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">تذكير</string>
+    
+	<string name="details">تفاصيل</string>
+	<string name="done">Done</string>
+	<string name="remind_on_a_specified_date">ذكرني في يوم</string>
+	<string name="reminder_time">إنذار</string>
+    <string name="reminder_pro">تذكير</string>
+	<string name="repeat">كرر</string>
+    <string name="location">موقعك</string>
+	<string name="remind_on_a_specified_location">ذكرني في موقع</string>
+	<string name="priority">أفضلية</string>
+	<string name="list">قائمة</string>
+	<string name="remarks">ملاحظات</string>
+    <string name="customer">زبون</string>
+
+    <string name="table1">المقرر</string>
+    <string name="table1_no_project">أي عناصر المقرر اليوم</string>
+    <string name="table1_project">1 البند المقرر اليوم</string>
+    <string name="table2">تذكير</string>
+    <string name="table3">قائمة 2</string>
+    <string name="table4">قائمة3</string>
+
+    <string name="cancel">إلغاء</string>
+    <string name="colors">اللون</string>
+    <string name="search">بحث</string>
+    
+    <string name="repeat_never">أبدا</string>
+    <string name="repeat_day">كل يوم</string>
+    <string name="repeat_week">كل اسبوع</string>
+    <string name="repeat_two_week">كل 2 أسبوع</string>
+    <string name="repeat_month">كل شهر</string>
+    <string name="repeat_year">كل عام</string>
+    <string name="purple">أرجواني</string>
+    <string name="green">أخضر</string>
+    <string name="blue">أزرق</string>
+    <string name="yellow">الأصفر</string>
+    <string name="gray">رمادي</string>
+    <string name="red">أحمر</string>
+    <string name="orange">البرتقالي</string>
+
+    <string name="edit">تصحيح</string>
+    <string name="list_title">عنوان القائمة</string>
+    <string name="show_completed">مشاهدة المنجزة</string>
+    <string name="hide_completed">إخفاء المنجزة</string>
+
+    <string name="more">أكثر من</string>
+    <string name="delete">حذف</string>
+    <string name="delete_list">حذف قائمة</string>
+
+</resources>

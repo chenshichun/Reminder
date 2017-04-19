@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Promemoria</string>
+    
+	<string name="details">Dettagli</string>
+	<string name="done">Fatto</string>
+	<string name="remind_on_a_specified_date">Ricordami in un giorno</string>
+	<string name="reminder_time">Allarme</string>
+    <string name="reminder_pro">Promemoria</string>
+	<string name="repeat">Ripetere</string>
+    <string name="location">luogo</string>
+	<string name="remind_on_a_specified_location">mi ricordano in una posizione</string>
+	<string name="priority">Priorità</string>
+	<string name="list">Elenco</string>
+	<string name="remarks">Gli appunti</string>
+    <string name="customer">Cliente</string>
+
+    <string name="table1">In programma</string>
+    <string name="table1_no_project">Non ci sono elementi in scadenza oggi</string>
+    <string name="table1_project">1 articolo in scadenza oggi</string>
+    <string name="table2">Promemoria</string>
+    <string name="table3">lista 2</string>
+    <string name="table4">lista 3</string>
+
+    <string name="cancel">Annulla</string>
+    <string name="colors">Colore</string>
+    <string name="search">Ricerca</string>
+    
+    <string name="repeat_never">Mai</string>
+    <string name="repeat_day">Ogni giorno</string>
+    <string name="repeat_week">Ogni settimana</string>
+    <string name="repeat_two_week">Ogni 2 settimane</string>
+    <string name="repeat_month">Ogni mese</string>
+    <string name="repeat_year">Ogni anno</string>
+    <string name="purple">Viola</string>
+    <string name="green">verde</string>
+    <string name="blue">Blu</string>
+    <string name="yellow">Giallo</string>
+    <string name="gray">Grigio</string>
+    <string name="red">Rosso</string>
+    <string name="orange">arancia</string>
+
+    <string name="edit">Modifica</string>
+    <string name="list_title">titolo Elenco</string>
+    <string name="show_completed">Mostra Completato</string>
+    <string name="hide_completed">Hide Completato</string>
+
+    <string name="more">Di Più</string>
+    <string name="delete">Elimina</string>
+    <string name="delete_list">Cancella elenco</string>
+
+</resources>
