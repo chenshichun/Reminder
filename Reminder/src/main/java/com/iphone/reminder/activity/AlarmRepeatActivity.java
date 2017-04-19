@@ -34,7 +34,7 @@ public class    AlarmRepeatActivity extends Activity {
 	SharedPreferences.Editor editor;
 	private Integer alarmRepeat[] = new Integer[] { 1, 2, 3, 4, 5, 6 };
     private String repeatName[] = new String[]{};
-    private int repeatNum,firstRepeatId,currentPosition;
+    private int repeatNum,currentPosition;
 
 	@SuppressLint("NewApi")
 	@Override
@@ -50,14 +50,12 @@ public class    AlarmRepeatActivity extends Activity {
 		currentTabelCount = intent.getIntExtra("TABLE_COUNT", 1);
         currentPosition = intent.getIntExtra("POSITION",1);
         Log.d("cfb---getintent","currentTabelCount=="+currentTabelCount+",,,currentPosition==="+currentPosition+"---repeatNum=="+repeatNum);
-      /*  if(SQLHelper.queryAllMessage(getApplicationContext(), currentTabelCount).get(currentPosition-1).get("REPEAT")!= null);
-        firstRepeatId = Integer.valueOf(SQLHelper.queryAllMessage(getApplicationContext(), currentTabelCount).get(currentPosition-1).get("REPEAT"));*/
 
 		repeatSp = getSharedPreferences("repeat", 0);
 		editor = repeatSp.edit();
 		lv = (ListView) findViewById(R.id.repeat_listview);
 		mAdapter = new MyAdapter(this);
-        mAdapter.setSelectItem(/*firstRepeatId-1*/repeatNum-1);
+        mAdapter.setSelectItem(repeatNum-1);
 		lv.setAdapter(mAdapter);
 
 		backBtn = (Button) findViewById(R.id.cancel_btn);
@@ -131,7 +129,6 @@ public class    AlarmRepeatActivity extends Activity {
 			ViewHolder holder;
 
             repeatSp = getSharedPreferences("repeat", 0);
-            //firstRepeatId = repeatSp.getInt("ALARM_REPEAT",0);
 
 			if (convertView == null) {
 				convertView = mInflater.inflate(R.layout.alarm_repeat_item,
