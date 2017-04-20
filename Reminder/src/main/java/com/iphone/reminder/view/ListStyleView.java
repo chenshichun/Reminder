@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.text.Editable;
-import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -22,6 +21,7 @@ import android.widget.TextView;
 import com.iphone.reminder.R;
 import com.iphone.reminder.activity.ChooseColorActivity;
 import com.iphone.reminder.activity.MainActivity;
+import com.iphone.reminder.activity.TestActivity;
 import com.iphone.reminder.adapter.MyApater;
 import com.iphone.reminder.data.MessageBean;
 import com.iphone.reminder.listview.ListViewCompat;
@@ -70,7 +70,7 @@ public class ListStyleView extends LinearLayout {
             listCountTv.setVisibility(View.GONE);
             mEditOrDoneButton.setVisibility(View.GONE);
         }
-		View footView = MainActivity.mainActivity.getLayoutInflater().inflate(
+		View footView = TestActivity.mTestActivity.getLayoutInflater().inflate(
 				R.layout.item_footview, null);
 		footviewTv = (ImageView) footView.findViewById(R.id.footview_iv);
 		mFootViewET = (EditText) footView.findViewById(R.id.footview_et);

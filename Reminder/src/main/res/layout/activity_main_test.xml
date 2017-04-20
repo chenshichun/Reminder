@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#3f3e3f"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <com.iphone.reminder.view.PullView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/header_ll"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp">
+
+                    <EditText
+                        android:id="@+id/keywords_search_et"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:drawableLeft="@drawable/search_b"
+                        android:background="@drawable/edit_background"
+                        android:textColor="#ffffff"
+                        android:hint="@string/search"
+                        android:textColorHint="@color/white"
+                        android:gravity="center"
+                        android:textSize="12sp"/>
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/add_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/btn_add_normal"/>
+
+
+                <Button
+                    android:id="@+id/cancel_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/cancel"
+                    android:textColor="#ffffff"
+                    android:background="@null"
+                    android:visibility="gone"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/scorll_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none"
+                android:scrollbars="none">
+
+                <RelativeLayout
+                    android:id="@+id/viewObj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                </RelativeLayout>
+            </ScrollView>
+
+            <View
+                android:id="@+id/shelter_view"
+                android:layout_width="match_parent"
+                android:layout_height="420dp"
+                android:layout_marginTop="-420dp"
+                android:visibility="gone"
+                />
+
+            <RelativeLayout
+                android:id="@+id/search_results_re"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:background="#f7f7f7"
+                >
+
+                <com.iphone.reminder.listview.ListViewCompat
+                    android:id="@+id/search_results_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:transcriptMode="normal"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.iphone.reminder.view.PullView>
+</LinearLayout>
